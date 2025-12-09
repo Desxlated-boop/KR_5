@@ -12,6 +12,7 @@
     <a href="/add.html" class="add-btn">+ Добавить рецепт</a>
 
     <div id="recipes">
+      <!-- Рецепты подгрузятся сюда через JavaScript -->
     </div>
   </div>
 
@@ -25,6 +26,7 @@
           div.className = 'recipe';
           div.innerHTML = `
             <h2>${r.title}</h2>
+            <p><strong>Категория:</strong> ${r.category || 'Не указана'}</p>
             <p><strong>Ингредиенты:</strong> ${r.ingredients}</p>
             <p><strong>Приготовление:</strong> ${r.instructions}</p>
           `;

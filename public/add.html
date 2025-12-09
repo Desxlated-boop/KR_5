@@ -10,6 +10,7 @@
     <h1>Добавить новый рецепт</h1>
     <form action="/api/recipes" method="POST">
       <input type="text" name="title" placeholder="Название" required><br>
+      <input type="text" name="category" placeholder="Категория"><br>
       <textarea name="ingredients" placeholder="Ингредиенты (через запятую)" required></textarea><br>
       <textarea name="instructions" placeholder="Как готовить" required></textarea><br>
       <button type="submit">Сохранить</button>

@@ -1,13 +1,13 @@
 {
-  "name": "recipe-site",
+  "name": "recipe-catalog",
   "version": "1.0.0",
-  "description": "Простой сайт-каталог рецептов на Express",
+  "description": "Каталог рецептов на Express.js",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Ты",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
@@ -15,4 +15,4 @@
   "devDependencies": {
     "nodemon": "^3.1.4"
   }
-} 
+}
